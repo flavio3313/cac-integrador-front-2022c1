@@ -23,7 +23,7 @@ function calcularPrecio() {
     } else {
         precioFinal = parseInt(precioBase);
     }
-    document.getElementById("precio_final").value = precioFinal * cantidad;
+    document.getElementById("precio_final").value = "$" + precioFinal * cantidad;
     
    
 
