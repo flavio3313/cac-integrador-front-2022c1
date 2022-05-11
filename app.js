@@ -32,9 +32,18 @@ function calcularPrecio() {
 
 }
 
+function borrar() {
+    document.getElementById("precio_final").value = "";
+    document.getElementById("inputCantidad").value = "";
+    document.getElementById("categoria").value = "";
+}
+
+document.getElementById("borrar").onclick = borrar;
+
 
 
 document.getElementById("myBtn").onclick = calcularPrecio;
+
 
 
 
