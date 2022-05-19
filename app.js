@@ -2,7 +2,10 @@ let descuento1 = parseInt(document.getElementById("descuento1").innerHTML.split(
 let descuento2 = parseInt(document.getElementById("descuento2").innerHTML.split("%")[0]);
 let descuento3 = parseInt(document.getElementById("descuento3").innerHTML.split("%")[0]);
 
-
+document.addEventListener("DOMContentLoaded", () => {
+    calcularPrecio();
+    borrar();
+})
 
 
 
